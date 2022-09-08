@@ -1,0 +1,43 @@
+.card{
+    /* text-align: center; */
+    justify-items: center;
+    border: 2px  black;
+    padding: 10%;
+    box-shadow: 4px 4px 9px 1px rgb(44, 42, 42);
+   
+}
+
+button{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px;
+    
+    
+}
+button:hover {
+    background-color: rgb(41, 38, 228);
+    cursor: pointer;
+    color: white;
+
+}
+.card:hover{
+    transform: scale(1.05 , 1.05);
+}
+
+.card_img{
+    margin-left: 5%;
+    height: 80%;
+    width: 90%;
+    object-fit: cover;
+    cursor: pointer;
+  
+}
+.wishlist{
+    float: right;
+}
+.card_discription{
+    display: flex;    
+    font-size: 0.7rem;
+ 
+}

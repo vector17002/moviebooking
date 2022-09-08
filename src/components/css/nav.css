@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgb(41, 38, 228);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.navbar a{
+    text-decoration: none;
+    margin: 30px;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+.navbar a:hover, a:active{
+    background-color:rgb(12, 10, 167) ;
+}
+.nav{
+   
+ margin-right: auto;   
+
+}
+input{
+    float: right;
+    font-size: 1rem;
+    
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+html{
+    scroll-behavior: smooth;
+}

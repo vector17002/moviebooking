@@ -1,0 +1,21 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    margin: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2%;
+    row-gap: 5%;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    box-shadow: 9px 9px 20px 1px;
+    padding: 2%;
+    margin: 10px;
+}

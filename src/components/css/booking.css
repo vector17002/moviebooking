@@ -1,0 +1,54 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+h2{
+    color: rgb(65, 62, 62);
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container{
+   
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 30px;
+    flex-direction: column;
+    background-color: rgb(226, 239, 240);
+    box-shadow: 4px 4px 9px 1px rgb(44, 42, 42);
+}
+.input{
+    text-align: center;
+}
+span{
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+}
+.btnbook{
+ margin: auto;
+
+}
+.bookh3{
+    margin: 2%;
+    color:rgb(65, 62, 62);
+    font-size:15px;
+} 
+.screen{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 5%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    margin: auto;
+}
+.date{
+    display: flex;
+    
+}
